@@ -1,0 +1,3 @@
+kubeconfigpath: /home/ec2-user/cluster-tm2nx/auth/kubeconfig
+orchestrator_tool: oc
+stackrox_central_admin_password: CYjNh+sQmBhBMn4E

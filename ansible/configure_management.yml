@@ -1,0 +1,21 @@
+---
+
+- name: Configure Management Cluster
+  gather_facts: false
+  hosts: localhost
+  become: no
+  #become_user: ec2-user
+  pre_tasks:
+    - name: Import configuration variables
+      include_vars: config.yml
+  tasks:
+
+    - name: Install ACS
+      include_role:
+        name: ocp4-install-acs
+
+    - name: Install ACS demo applications
+      include_role:
+        name: acs-demo
+      tags:
+        - k8s_violations

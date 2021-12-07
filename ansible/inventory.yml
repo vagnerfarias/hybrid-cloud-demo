@@ -1,0 +1,2 @@
+[bastion]
+bastion.tm2nx.sandbox1485.opentlc.com ansible_user=lab-user ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
