@@ -1,5 +1,4 @@
 
-stackrox_central_admin_password: CYjNh+sQmBhBMn4E
 ocp4_demo_pipeline_namespace: cicd
 acs_expected_crds:
 - centrals.platform.stackrox.io
